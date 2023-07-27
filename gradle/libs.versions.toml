@@ -23,7 +23,6 @@ rxjava = "2.2.20"
 rxandroid = "2.1.1"
 utilcodex = "1.30.6"
 baseRecyclerViewAdapterHelper = "3.0.6"
-android-example = "1.0.1"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -52,7 +51,6 @@ glide = { group = "com.github.bumptech.glide", name = "glide", version = "4.13.2
 legacySupportV4 = { group = "androidx.legacy", name = "legacy-support-v4", version = "1.0.0" }
 bga-banner-android = { group = "com.github.bingoogolapple", name = "BGABanner-Android", version = "3.0.1" }
 binding = { group = "com.hi-dhl", name = "binding", version = "1.1.5" }
-android-example = {group = "com.github.jitpack",name = "android-example",version = "1.0.1" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
