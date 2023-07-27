@@ -5,6 +5,8 @@ plugins {
     id("maven-publish")
 }
 
+apply(plugin = "maven-publish")
+
 afterEvaluate {
     publishing { // 发布配置
         publications { // 发布的内容
