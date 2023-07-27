@@ -8,7 +8,7 @@ plugins {
 afterEvaluate {
     publishing { // 发布配置
         publications { // 发布的内容
-            register<MavenPublication>("release") { // 注册一个名字为 release 的发布内容
+            create<MavenPublication>("release") { // 注册一个名字为 release 的发布内容
                 groupId = "com.github.black1552"
                 artifactId = "models"
                 version = "1.2"
@@ -43,11 +43,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }
 
