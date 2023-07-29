@@ -23,7 +23,7 @@ rxjava = "2.2.20"
 rxandroid = "2.1.1"
 utilcodex = "1.30.6"
 baseRecyclerViewAdapterHelper = "3.0.6"
-oneBotton = "1.1.1"
+oneBotton = "1.2.2"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -52,7 +52,7 @@ glide = { group = "com.github.bumptech.glide", name = "glide", version = "4.13.2
 legacySupportV4 = { group = "androidx.legacy", name = "legacy-support-v4", version = "1.0.0" }
 bga-banner-android = { group = "com.github.bingoogolapple", name = "BGABanner-Android", version = "3.0.1" }
 binding = { group = "com.hi-dhl", name = "binding", version = "1.1.5" }
-oneBotton = { group = "cn.onestravel.one", name = "one_bottom_navigationbar", version.ref = "oneBotton" }
+oneBotton = { group = "com.github.onestravel", name = "OneBottomNavigationBar", version.ref = "oneBotton" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
