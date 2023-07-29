@@ -27,7 +27,7 @@ abstract class BaseApplication : Application() {
     abstract var info: String
     override fun onCreate() {
         super.onCreate()
-        Updateinit.url = "http://autoupdate.magicany.cc//upload/checkVersion"
+        Updateinit.url = "http://autoupdate.magicany.cc/upload/checkVersion"
         Updateinit.context = this
         Updateinit.initXAOP()
         Updateinit.initUpdate()

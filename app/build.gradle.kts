@@ -78,4 +78,5 @@ dependencies {
     api(libs.legacySupportV4)
     api(libs.bga.banner.android)
     api(libs.binding)
+    api(libs.oneBotton)
 }
